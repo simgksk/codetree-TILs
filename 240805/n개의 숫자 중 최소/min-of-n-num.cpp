@@ -6,9 +6,9 @@ using namespace std;
 int main() {
 
     int arr[101];
-    int n;
-    int min = 9999;
-    int cnt = 0;
+    long int n;
+    long int min = 9999;
+    long int cnt = 0;
 
     cin >> n;
 

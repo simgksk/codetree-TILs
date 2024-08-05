@@ -5,16 +5,18 @@ using namespace std;
 
 int main() {
 
-    int arr[10];
+    int arr[100];
     int n;
-    int min = 9999;
-    int cnt = 0;
+    int min;
+    int cnt = 1;
 
     cin >> n;
 
     for(int i = 0; i < n; i++){
         cin >> arr[i];
-
+    }
+    min = arr[0];
+    for(int i = 0; i < n; i++){
         if(min > arr[i]){
             min = arr[i];
 

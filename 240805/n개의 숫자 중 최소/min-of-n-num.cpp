@@ -5,10 +5,10 @@ using namespace std;
 
 int main() {
 
-    int arr[101];
-    long int n;
-    long int min = 9999;
-    long int cnt = 0;
+    int arr[10];
+    int n;
+    int min = 9999;
+    int cnt = 0;
 
     cin >> n;
 
@@ -18,7 +18,7 @@ int main() {
         if(min > arr[i]){
             min = arr[i];
 
-            if(i = arr[i]){
+            if(arr[i] == min){
                 cnt++;
             }
         }

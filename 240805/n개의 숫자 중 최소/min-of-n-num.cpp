@@ -5,7 +5,7 @@ using namespace std;
 
 int main() {
 
-    int arr[100];
+    int arr[101];
     int n;
     int min = 9999;
     int cnt = 0;
